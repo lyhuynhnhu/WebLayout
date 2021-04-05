@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: inherit;
+}
+article {
+    height: 500px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(247, 247, 247);
+    opacity: 0.85;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content {
+    height: 450px;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    /* background-size: 1265px, 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input {
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-width: 0.5px;
+    border-style: initial;
+    border-radius: 20%;
+}
+a {
+    margin-left: 10px;
+    color: lightskyblue;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(177, 175, 175);
+}
+.content_top {
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content_bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.copyright {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.notice {
+    margin-top: 5px;
+}
+.social {
+    margin-right: 25px;
+}
+p {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: inherit;
+}
+article {
+    height: 500px;
+    border-top: solid 1.34px;
+    border-bottom: solid 1.34px;
+    border-color: rgb(186, 187, 186);
+}
+section {
+    height: 90%;
+    background-image: url('https://www.w3schools.com/css/gradient_bg.png');
+    background-repeat: no-repeat;
+    background-size: 1265px, 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(252, 251, 249);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.left {
+    width: 30%;
+    height: 350px;
+}
+.right {
+    width: 50%;
+    height: 300px;
+    color: rgb(35, 35, 66);
+    display: flex;
+    align-items: flex-start;
+}
+h5 {
+    margin: 0 0 0 0;
+}
+.text {
+    font-size: 10px;
+    color: rgb(155, 153, 153);
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.explain{
+    width: 260px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+label {
+    font-size: 22px;
+    display: block;
+}
+.content {
+    width: 450px;
+}
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.copyright {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.notice {
+    margin-top: 5px;
+}
+.social {
+    margin-right: 25px;
+}
+p {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width:920px) {
+    /* For mobile phones: */
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .left, .right, label, .explain, .content, h5, .text {
+        width: 100%;
+    }
+  }
